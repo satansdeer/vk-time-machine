@@ -48,3 +48,4 @@ gem 'unicorn'
 # gem 'debugger', group: [:development, :test]
 
 gem 'capistrano', '~> 3.2.1'
+gem 'rvm-capistrano'
