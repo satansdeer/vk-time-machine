@@ -78,6 +78,7 @@ GEM
       multi_xml (~> 0.5)
       rack (~> 1.2)
     oj (2.9.6)
+    pg (0.17.1)
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -158,6 +159,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
   jquery-rails
+  pg
   rails (= 4.0.4)
   rvm-capistrano
   sass-rails (~> 4.0.2)
