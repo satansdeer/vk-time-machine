@@ -49,3 +49,5 @@ gem 'unicorn'
 
 gem 'capistrano', '~> 3.2.1'
 gem 'rvm-capistrano'
+
+gem 'pg'
