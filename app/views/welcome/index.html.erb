@@ -3,3 +3,6 @@
   <i class="icon-home icon-white"></i>
   Войти через ВКонтакте
 <% end %>
+<% if @user %>
+  <%= @user.to_json %>
+<% end %>
