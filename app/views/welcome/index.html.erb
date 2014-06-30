@@ -6,6 +6,7 @@
   <% end %>
 <% end %>
 <% if @user %>
-  <%= @user.to_json %>
   <%= image_tag @user[:photo] %>
+  <%= @user[:first_name] %>
+  <%= @user[:last_name] %>
 <% end %>
