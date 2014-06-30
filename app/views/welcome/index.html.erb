@@ -7,4 +7,5 @@
 <% end %>
 <% if @user %>
   <%= @user.to_json %>
+  <%= image_tag @user[:photo] %>
 <% end %>
