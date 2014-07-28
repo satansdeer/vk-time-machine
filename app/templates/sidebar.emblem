@@ -1,0 +1,16 @@
+.sidebar
+  = link-to 'dashboard' class='sidebar-item sidebar-item--dashboard'
+    span.item-title
+      ' Dashboard
+  = link-to 'map' class='sidebar-item sidebar-item--map'
+    span.item-title
+      ' Map
+  = link-to 'ask-a-tutor' class='sidebar-item sidebar-item--ask-a-tutor'
+    span.item-title
+      ' Ask-a-tutor
+  = link-to 'test-n-essays' class='sidebar-item sidebar-item--test-n-essays'
+    span.item-title
+      ' Test-n-essays
+  = link-to 'tutor-sessions' class='sidebar-item sidebar-item--tutor-sessions'
+    span.item-title
+      ' Tutor-sessions

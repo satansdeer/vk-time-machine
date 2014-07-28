@@ -1,0 +1,7 @@
+= partial 'dashboard-header'
+= partial 'second-header'
+
+= partial 'sidebar'
+
+.content
+  = outlet

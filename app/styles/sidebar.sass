@@ -1,0 +1,55 @@
+.sidebar
+  width: $sidebar-width
+  height: 100%
+  background-color: #3B4047
+  position: absolute
+  top: $header-height + $second-header-height
+  transition: width 0.3s
+  z-index: 98
+  overflow: hidden
+  &:hover
+    width: $sidebar-width--hover
+    .sidebar-item
+      .item-title
+        display: inline-block
+  .sidebar-item
+    display: block
+    height: 70px
+    background-repeat: no-repeat
+    background-position: 20px 20px
+    background-color: #3B4047
+    overflow: hidden
+    transition: background-color 0.3s
+    &:hover, &.active
+      background-color: #292F33
+      .item-title
+        color: #FFFFFF
+    &.sidebar-item--map
+      background-image: url('/icons/map.svg')
+      &.active, &:hover
+        background-image: url('/icons/map-active.svg')
+    &.sidebar-item--dashboard
+      background-image: url('/icons/dashboard.svg')
+      &.active, &:hover
+        background-image: url('/icons/dashboard-active.svg')
+    &.sidebar-item--test-n-essays
+      background-image: url('/icons/test-n-essays.svg')
+      &.active, &:hover
+        background-image: url('/icons/test-n-essays-active.svg')
+    &.sidebar-item--tutor-sessions
+      background-image: url('/icons/tutor-sessions.svg')
+      &.active, &:hover
+        background-image: url('/icons/tutor-sessions-active.svg')
+    &.sidebar-item--ask-a-tutor
+      background-image: url('/icons/ask-a-tutor.svg')
+      &.active, &:hover
+        background-image: url('/icons/ask-a-tutor-active.svg')
+    .item-title
+      display: inline-block
+      overflow: hidden
+      white-space: nowrap
+      text-decoration: none
+      line-height: 70px
+      margin-left: 80px
+      color: #A6B4C0
+      transition: color 0.3s

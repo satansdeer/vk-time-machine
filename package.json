@@ -1,0 +1,45 @@
+{
+  "name": "dashboard",
+  "version": "0.0.0",
+  "private": true,
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ember server",
+    "build": "ember build",
+    "test": "ember test"
+  },
+  "repository": "https://github.com/stefanpenner/ember-cli",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "body-parser": "^1.2.0",
+    "broccoli-asset-rev": "0.0.11",
+    "broccoli-autoprefixer": "~0.2.0",
+    "broccoli-ember-hbs-template-compiler": "^1.5.0",
+    "broccoli-ember-script": "^0.1.1",
+    "broccoli-emblem-compiler": "~0.3.16",
+    "broccoli-sass": "~0.2.1",
+    "ember-cli": "0.0.39",
+    "ember-cli-coffeescript": "0.0.4",
+    "ember-cli-ember-data": "0.1.0",
+    "ember-cli-ic-ajax": "0.1.1",
+    "express": "^4.1.1",
+    "glob": "^3.2.9",
+    "gulp": "~3.8.6",
+    "gulp-coffee": "~2.1.1",
+    "gulp-concat": "~2.3.4",
+    "gulp-jshint": "~1.7.1",
+    "gulp-rename": "~1.2.0",
+    "gulp-sass": "~0.7.2",
+    "gulp-uglify": "~0.3.1",
+    "gulp-util": "~3.0.0",
+    "gulp-webpack": "~0.1.0",
+    "originate": "0.1.5"
+  }
+}

@@ -1,0 +1,2 @@
+.second-header
+  = partial "next-lesson-block"

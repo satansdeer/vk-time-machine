@@ -1,0 +1,11 @@
+.top-navbar
+  nav
+    = link-to 'plans' class='top-navbar--item'
+      span.item-title
+        ' Plans
+    = link-to 'blog' class='top-navbar--item'
+      span.item-title
+        ' Blog
+    = link-to 'support' class='top-navbar--item'
+      span.item-title
+        ' Support

@@ -1,0 +1,10 @@
+.dashboard-header
+  img.logo src="logo.jpg"
+
+  = partial 'promotions-block'
+
+  = partial 'notifications'
+
+  img.separator src="separator.jpg"
+
+  = partial 'top-navbar'

@@ -1,0 +1,4 @@
+.next-lesson-block
+  ' Samantha, your next lesson is
+  span.next-lesson-block--lesson-name
+    ' Quantiative Section Overview.

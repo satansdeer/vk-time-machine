@@ -1,0 +1,4 @@
+.promotions-block
+  img.promotions-block--progress-bar src="progress-bar.svg"
+  .days-left
+    | 7 days left
